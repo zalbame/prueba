@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+</head>
+<body>
+   <form action="/hola.PHP" method="get">
+	<p>Nombre</p>
+	  <input type="text" name="Nombre">
+	<p>Apellido</p>
+	  <input type="text" name="Apellido">
+    <p>Email</p>
+      <input type="text" name="email">
+    <p>Genero</p> 
+      <font face="Comic Sans MS">
+      <span>
+        <input type="radio" name="genero" value="Femenino">Femenino
+      </span>  
+      <span>
+        <input type="radio" name="genero" value="Masculino">Masculino
+      </span>
+    <p>Nacionalidad</p> 
+      <select>
+      	<option value="Argentina">Argentina</option>
+      	<option value="Chile">Chile</option>
+      	<option value="Uruguay">Uruguay</option> 	
+      </select> 
+    <p>Temas que le interesan</p>
+       <input type="checkbox" id="cbox1" value="infraestructura">Infraestructura
+       <br />  
+       <input type="checkbox" id="cbox2" value="programacion web">Programación Web
+       <br />
+       <input type="checkbox" id="cbox3" value="programacion mobile">Programación Mobile
+       <br />
+    <p>  
+        <input type="checkbox" id="cbox4" value="acepta los terminos y condiciones">Acepta los terminos y condiciones
+    </p>
+    <p>
+    	<span>
+    	  <input type="submit" value="Cancelar">
+    	  <input type="submit" value="Aceptar">
+    	</span> 
+    </font> 
+    </p>
+   </form>
+</body>
+</html>
