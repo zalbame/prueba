@@ -1,25 +1,18 @@
+.azul{
+	color: blue;
+	margin-left: 35px;
+}
+
 .gris{
 	color: grey;
 }
- 
-.azul{
-	color: blue;
-}
-
-span .fuente{
-	font-size: 177px;
-}
-
-p {
-	font-family: verdana;
-}
 
 h1{
-	font-size: 40px;
-	margin-left: 25px;
+	font-family: lato;
+	font-size: 32px;
+	margin-left: 35px;
 }
 
-span{
-	font-size: 11px;
+p{
+	font-family: lato;
 }
-
