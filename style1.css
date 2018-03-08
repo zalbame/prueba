@@ -1,0 +1,20 @@
+#lorem{
+	color: red;
+}
+
+.rr{
+	color: blue;
+}
+
+p{
+	color: black;
+}
+
+
+ul{
+	list-style: none;
+}
+
+span p.rr{
+	color: green
+}

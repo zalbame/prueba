@@ -1,0 +1,25 @@
+.gris{
+	color: grey;
+}
+ 
+.azul{
+	color: blue;
+}
+
+span .fuente{
+	font-size: 177px;
+}
+
+p {
+	font-family: verdana;
+}
+
+h1{
+	font-size: 40px;
+	margin-left: 25px;
+}
+
+span{
+	font-size: 11px;
+}
+
