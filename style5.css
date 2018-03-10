@@ -1,0 +1,39 @@
+body, html {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffe6e6;
+  font-family: lato;
+}
+
+.estructura {
+  padding: 0;
+  width: 1024px;
+  height: 600px;
+  background-color: #ffff99;
+  margin: auto;
+  text-align: center;
+}
+
+.perfil {
+  width: 80%;
+  height: 310px;
+  background-color: #ffcccc;
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.perfil img{
+  border-radius: 360px;
+  width: auto;
+  height: 200px;
+  margin: 15px auto;
+}
+
+.job-container{
+  padding: 0;
+  width: 80%;
+  height: 70px;
+  background-color: white;
+  margin: 10px auto;
+  text-align: center;
+}

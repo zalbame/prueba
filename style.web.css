@@ -16,3 +16,14 @@ h1{
 p{
 	font-family: lato;
 }
+
+div{
+	border: 10px solid red;
+	width: 900px;
+	height: 30px;
+	background-color: pink;
+	text-align: center;
+	padding: 10px;
+	margin: 10px; 
+}
+

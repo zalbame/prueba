@@ -1,0 +1,23 @@
+div {
+	display: inline;
+	height: 200px;
+	width: 40%;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+}
+
+div.verde{
+	background-color: green;
+}
+
+div.azul{
+	background-color: blue;
+}
+
+body{
+	font-size: 0px;
+	margin: 0px auto;
+}
