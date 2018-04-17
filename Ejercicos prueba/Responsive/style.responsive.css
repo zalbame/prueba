@@ -1,0 +1,19 @@
+h1{
+	color: red;
+	display: none;
+}
+
+h2{
+	display: block;
+}
+@media only screen and (max-width: 1000px){
+	h1{
+		color: blue;
+		display: block;
+	}	
+
+	h2{
+		display: none;
+	}
+
+}

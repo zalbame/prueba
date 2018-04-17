@@ -1,0 +1,49 @@
+.logo{
+	width: 150px;
+	height: auto;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+.drop{
+	width: 150px;
+	height: auto;
+	margin: auto;
+	text-align: center;
+}
+
+.rosa{
+	background-color: #ff6347;
+	height: 755px;
+}
+
+.red{
+	background-color: #ffdab9;
+}
+
+.photo-container{
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+
+}
+
+.price{
+	width: 100%;
+	height: 35px;
+	background-color: #ff6347;
+}
+
+nav{
+	margin: auto;
+	text-align: center;
+}

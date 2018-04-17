@@ -1,0 +1,75 @@
+/*
+.body{
+	padding: 0;
+	margin: 0;
+}
+*/
+
+/*
+.vert{
+	background: peru;
+	color: black;
+	text-align: center;
+	height: 100px;
+	line-height: 100px;
+}
+.padre{
+	width: 50%;
+	margin: auto;
+	background: hotpink;
+	height: 200px;
+	position: relative; 
+}
+
+.hijo{
+	background: green;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+  transform: translateY(50%);
+} */
+
+/*
+.hola{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 800px;
+	height: 200px;
+}
+
+.parrafos{
+	display: flex;
+}
+
+.chau{
+	background-color: pink;
+	height: 100px;
+	width: 100px;
+}
+
+p{
+	text-align: center;
+}
+*/
+
+.hola{
+	display: flex;
+	background: red;
+	width: 850px;
+	height: 500px;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: auto;
+}
+
+.cont{
+	width: 250px;
+	/*
+	height: 150px;
+	*/
+	background-color: blue;
+	margin: 10px;
+	flex-grow: 1;
+}

@@ -1,0 +1,14 @@
+div {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+div:hover {
+  background-color: blue;
+}
+div p {
+  color: green;
+}
+p {
+  color: red;
+}

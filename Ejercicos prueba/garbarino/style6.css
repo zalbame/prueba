@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: red;
+}
+
+.nav-container {   
+  max-width: 1024px;   
+  min-width: 1024px;   
+  margin: auto; 
+}
+
+.logo-container {
+  display: inline-block;
+  margin-top: 15px;
+  float: left;
+}
+
+.search-container {
+  display: inline-block;
+  float: left;
+  margin-top: 17px;
+  margin-left: 30px;
+}
+
+.search-container input {
+  height: 30px;
+  width: 500px;
+  border-radius: 3px;
+  border: 1px solid #e9e9e9;
+  padding-left: 10px;
+}
+
+.main-container {
+  min-width: 1024px;
+  max-width: 1024px;
+  margin: auto;
+  height: auto;
+}
+
+.main-banner-container {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+}
+
+.main-banner-container img {
+  width: 100%;
+  height: auto;
+}
+
+.cuadradito-container {
+  width: 100%;
+  height: 300px;
+  background-color: orange;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.text-container {
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  color: #FFF;
+  width: 100%;
+}
+
+.cuadradito {
+  width: 25%;
+  display: inline-block;
+  height: 270px;
+  margin-left: 3.12%;
+  margin-right: 3.12%;
+  margin-top: 30px;
+  position: relative;
+}
+
+.cuadradito img {
+  width: 100%;
+  height: 100%;
+}
+
+.big-container{
+  margin: auto;
+  width: 100%
+}
+
+.box-container{
+  background-color: pink;
+  width: 31%;
+  height: 450px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.inbox-container{
+  
+}
+
+@media only screen and (max-width: 1000px){
+  .nav-container {   
+  max-width: 100%;
+  min-width: 100%;    
+}
+
+.logo-container {
+  float: right;
+}
+
+.search-container {
+  float: right;
+}
+
+
+.main-container {
+  min-width: 100%;
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+}
+
+.cuadradito-container {
+  margin-top: 0px;
+}
+
+.cuadradito {
+  width: 100%;
+  display: block;
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+#principal{
+  background:peru;
+  width:500px;
+  height: 500px;
+}
+
+.caja{
+  width:80px;
+  height:80px;
+  margin-bottom:20px;
+  background: yellow;
+}
+
+.naranja{
+  width:80px;
+  height:80px;
+  margin-bottom:20px;
+  background: orange;
+}
