@@ -1,0 +1,25 @@
+.main-container {
+	display: flex;
+	flex-direction: column;
+	background-color: pink;
+	align-items: center;
+	width: 600px;
+	height: auto;
+}
+
+.valor {
+	width: 200px;
+	margin-bottom: 10px;	
+}
+
+
+.counter {
+	width: 200px;
+	height: 20px;
+	background-color: red;
+	text-align: center;
+}
+
+.tachado {
+	text-decoration: line-through;
+}
