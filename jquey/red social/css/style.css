@@ -1,3 +1,10 @@
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 100%
+}
+
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -14,6 +21,7 @@
 
 .nav-container {	
   margin: 10px 5px;
+  position: relative;
 }
 
 .boton {
@@ -26,4 +34,11 @@
 	height: 100px;
 	background-color: white;
 	margin: 5px 5px;
+}
+
+.mood-select {
+	width: 100px;
+	position: absolute;
+  top: 18px;
+  right: 70px;
 }
