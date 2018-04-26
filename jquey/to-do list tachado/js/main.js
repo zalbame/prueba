@@ -7,7 +7,7 @@ let tareasResueltas = 0
 $("#textito").on("keypress", function() {
   if (e.keyCode == 13) {
   	tareasTotales = $("ul li").length +1
-  	const currentValue = "<li>" + $("textito").val()
+  	const currentValue = "<li>" + $("#textito").val()
   	list.append(currentValue)
   	$("#y").html(tareasTotales)
   	$("#textito").val("")
