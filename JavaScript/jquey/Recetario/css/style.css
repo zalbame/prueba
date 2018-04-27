@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.mainContainer {
+	width: 600px;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+.mainNav {
+	width: 600px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+}
+
+.infoContainer {
+	background-color: blue;
+	width: 400px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.c {
+	width: 400px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: red;
+}
+
+.ing {
+	width: 100px;
+	height: 30px;
+	align-self: center;
+}
+
+.botoncito {
+	height: 30px;
+	align-self: center;
+}
+
+.botones {
+	display: flex;
+	justify-content: center;
+}
