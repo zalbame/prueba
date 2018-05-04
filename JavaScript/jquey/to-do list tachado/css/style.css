@@ -1,3 +1,4 @@
+/*
 .main-container {
 	display: flex;
 	flex-direction: column;
@@ -22,4 +23,24 @@
 
 .tachado {
 	text-decoration: line-through;
+}
+*/
+.tachado {
+  text-decoration: line-through;
+}
+
+.mostrar {
+  display: block;
+}
+
+input[type="text"] {
+  display: block;
+}
+
+input[type="text"].ocultar {
+  display: none;
+}
+
+.ocultar {
+  display: none;
 }

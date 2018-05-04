@@ -1,3 +1,8 @@
+body {
+	font-family: 'Lobster', cursive;
+}
+
+
 .main-container {
   margin: 0;
   display: flex;
@@ -9,15 +14,17 @@
 	height: 915px;
 	background-color: grey;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: center;
 }
 
-.row {
-  width: 807px;
-  height: 300px;
+.product {
+  width: 265px;
+  height: 290px;
   background-color: pink;
-  margin: 5px;
   display: flex;
+  margin: 5px;  	
 }
 
 .shoppingCart-section {
