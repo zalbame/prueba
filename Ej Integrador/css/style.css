@@ -52,13 +52,13 @@
   justify-content: center;
 }
 
-.producto img {
+.product img {
 	width: 230px;
 	height: 195px;
 	background-color: white;
   margin: 5px;
 }
-.producto {
+.product {
   width: 250px;
   height: 300px;
   background-color: #fce9eccc;
