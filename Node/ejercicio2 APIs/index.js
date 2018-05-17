@@ -1,23 +1,16 @@
 const http = require('http')
+const user = require('./controllers/userController.js')
+const product = require('./controllers/productController.js')
+
 http.createServer(function(req, res) {
   const endpoint = req.url
 
   res.writeHead(200, {"Content-Type": "application/json"});
   let pepe
   if (endpoint == '/juani') {
-    pepe = {
-      nombre: 'Juani',
-      edad: 23
-    }
+    pepe = user()
   } else if (endpoint == '/productos'){
-    pepe = [{
-      id: 1,
-      name: 'A'
-    },
-    {
-      id: 2,
-      name: 'B'
-    }]
+    pepe = product()
   } else {
     pepe = {
       err: 'Hubo un error'
@@ -27,3 +20,4 @@ http.createServer(function(req, res) {
   pepe = JSON.stringify(pepe)
   res.end(pepe)
 }).listen(8080)
+
